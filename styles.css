@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+:root{
+    --primary-color: #A78BFA;
+    --whitecolor: #F9FAFB;
+    --greycolor: #6B7280;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+   /* border-collapse: none; */
+    display: block; 
+    
+    
+    border-radius: 50%;
+    
+    /* padding-left: 3rem;
+    padding-top: 3rem; */
+}
+.mainheader{
+    /* background-color: #A78BFA; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1.5rem;  
+}
+.subheader{
+    text-align: center;
+    /* padding-top: 1rem; */
+    /* padding-left: 0.75rem; */
+    color: #111827;
+    font-size: 1.3rem;
+    position: relative;
+    /* font-weight: bold */
+    margin: 0px;
+}
+.navheader{
+    text-align: center;
+    
+}
+.navheaderul{
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+    /* font-weight: bolder; */
+    color: var(--greycolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+.section{
+    background-color: var(--greycolor);
+    width: 20rem;
+    padding-block: 3rem;
+    text-align: center;   
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    
+}
